@@ -5,7 +5,7 @@ It essentially acts as a multipart file would if uploaded in a form.
 The idea was borrowed from ActionPack::TestUploadedFile, but I wanted something more lightweight that doesn't
 have the baggage of activesupport.
 Other viable alternatives to this would be to use Rack's Multipart::UploadedFile, but again you'd need the entire
-Rack gem.
+Rack gem and isn't available in version ~> 1.0.x.
 
 == Copyright
 

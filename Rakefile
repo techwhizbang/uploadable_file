@@ -6,7 +6,8 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "uploadable_file"
     gem.summary = %Q{Simple wrapper around a Tempfile that adds content_type and original file name}
-    gem.description = %Q{Useful for file attachment (paperclip, attachment_fu, etc) outside your standard web frameworks}
+    gem.description = %Q{Makes ordinary files act like a multipart file if uploaded in a form, works well with attachment libraries like
+    paperclip, attachment_fu, etc}
     gem.email = "techwhizbang@gmail.com"
     gem.homepage = "http://github.com/techwhizbang/uploadable_file"
     gem.authors = ["Nick Zalabak"]

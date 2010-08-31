@@ -28,7 +28,8 @@ Gem::Specification.new do |s|
      "test/dilbert.jpg",
      "test/helper.rb",
      "test/test_uploadable_file.rb",
-     "test/text.txt"
+     "test/text.txt",
+     "uploadable_file.gemspec"
   ]
   s.homepage = %q{http://github.com/techwhizbang/uploadable_file}
   s.rdoc_options = ["--charset=UTF-8"]
