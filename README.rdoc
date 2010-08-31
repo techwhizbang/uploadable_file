@@ -1,6 +1,8 @@
 = uploadable_file
 
-Description goes here.
+UploadableFile is a simple wrapper around Tempfile that adds original_filename and content_type as attributes.
+The idea was borrowed from ActionPack::TestUploadedFile, but I wanted something more lightweight that doesn't
+have the baggage of activesupport.
 
 == Note on Patches/Pull Requests
  

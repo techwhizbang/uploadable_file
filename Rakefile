@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "uploadable_file"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Simple wrapper around a Tempfile that adds content_type and original file name}
+    gem.description = %Q{Useful for file attachment (paperclip, attachment_fu, etc) outside your standard web frameworks}
     gem.email = "techwhizbang@gmail.com"
     gem.homepage = "http://github.com/techwhizbang/uploadable_file"
     gem.authors = ["Nick Zalabak"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_dependency "mime-types", ">= 1.16"
+    gem.add_development_dependency "shoulda", ">= 2.11.3"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
